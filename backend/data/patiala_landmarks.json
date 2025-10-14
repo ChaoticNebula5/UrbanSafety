@@ -1,0 +1,128 @@
+{
+  "city": "Patiala, Punjab, India",
+  "center": {
+    "lat": 30.3398,
+    "lng": 76.3869,
+    "description": "Patiala City Center"
+  },
+  "police_stations": [
+    {
+      "name": "City Police Station Patiala",
+      "lat": 30.3365,
+      "lng": 76.3847,
+      "address": "Near Baradari Gardens, Patiala",
+      "phone": "+91-175-2214111"
+    },
+    {
+      "name": "Sadar Police Station",
+      "lat": 30.3280,
+      "lng": 76.3921,
+      "address": "Sadar Bazaar, Patiala",
+      "phone": "+91-175-2301234"
+    },
+    {
+      "name": "Model Town Police Post",
+      "lat": 30.3441,
+      "lng": 76.3795,
+      "address": "Model Town, Patiala",
+      "phone": "+91-175-2305678"
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "Government Rajindra Hospital",
+      "lat": 30.3428,
+      "lng": 76.3850,
+      "address": "Mall Road, Patiala",
+      "emergency": "+91-175-2213333"
+    },
+    {
+      "name": "Columbia Asia Hospital",
+      "lat": 30.3157,
+      "lng": 76.4052,
+      "address": "Nabha Road, Patiala",
+      "emergency": "+91-175-5008000"
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Mall Road",
+      "lat": 30.3373,
+      "lng": 76.3845,
+      "type": "commercial",
+      "description": "Main shopping and commercial area"
+    },
+    {
+      "name": "Patiala Railway Station",
+      "lat": 30.3254,
+      "lng": 76.3869,
+      "type": "transport",
+      "description": "Main railway junction"
+    },
+    {
+      "name": "Baradari Gardens",
+      "lat": 30.3385,
+      "lng": 76.3822,
+      "type": "landmark",
+      "description": "Historic palace gardens"
+    },
+    {
+      "name": "Punjabi University",
+      "lat": 30.3526,
+      "lng": 76.3718,
+      "type": "education",
+      "description": "Major university campus"
+    },
+    {
+      "name": "Thapar Institute of Engineering and Technology",
+      "lat": 30.3548,
+      "lng": 76.3646,
+      "type": "education",
+      "description": "Premier engineering institute"
+    },
+    {
+      "name": "Old Patiala Bus Stand",
+      "lat": 30.3312,
+      "lng": 76.3893,
+      "type": "transport",
+      "description": "Main bus terminal"
+    },
+    {
+      "name": "New Bus Stand (ISBT)",
+      "lat": 30.3145,
+      "lng": 76.4123,
+      "type": "transport",
+      "description": "Inter-State Bus Terminus"
+    }
+  ],
+  "neighborhoods": [
+    {
+      "name": "Model Town",
+      "center_lat": 30.3450,
+      "center_lng": 76.3780,
+      "radius_km": 1.5,
+      "type": "residential"
+    },
+    {
+      "name": "Leela Bhawan",
+      "center_lat": 30.3520,
+      "center_lng": 76.3640,
+      "radius_km": 1.0,
+      "type": "residential"
+    },
+    {
+      "name": "Sadar Bazaar",
+      "center_lat": 30.3290,
+      "center_lng": 76.3910,
+      "radius_km": 0.8,
+      "type": "commercial"
+    }
+  ],
+  "boundary": {
+    "description": "Approximate Patiala city boundary",
+    "north": 30.37,
+    "south": 30.30,
+    "east": 76.42,
+    "west": 76.35
+  }
+}
