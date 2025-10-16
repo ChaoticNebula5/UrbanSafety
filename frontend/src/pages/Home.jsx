@@ -57,7 +57,7 @@ const Home = () => {
     try {
       const response = await userService.register(formData);
       console.log('Registration successful:', response);
-      setSuccess('Registration successful! Please login.');
+      setSuccess('✓ Registration Successful!');
       setFormData({
         name: '',
         phone: '',
@@ -102,8 +102,21 @@ const Home = () => {
       marginTop: '10px',
     },
     success: {
-      color: '#38a169',
-      marginTop: '10px',
+      backgroundColor: '#38a169',
+      color: 'white',
+      padding: '20px',
+      borderRadius: '8px',
+      marginTop: '20px',
+      textAlign: 'center',
+      animation: 'fadeIn 0.5s ease-in',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: '10px',
+    },
+    successIcon: {
+      fontSize: '48px',
+      marginBottom: '10px',
     },
     contactsSection: {
       marginTop: '20px',
@@ -234,7 +247,18 @@ const Home = () => {
         </button>
 
         {error && <div style={styles.error}>{error}</div>}
-        {success && <div style={styles.success}>{success}</div>}
+        {success && (
+          <div style={styles.success}>
+            <span style={styles.successIcon}>✓</span>
+            <h3 style={{ margin: 0 }}>{success}</h3>
+            <p style={{ margin: '5px 0 0 0' }}>
+              Thank you for joining SafeSphere! Your account has been created successfully.
+            </p>
+            <p style={{ margin: '5px 0 0 0', fontSize: '0.9em' }}>
+              You can now login to access all SafeSphere features.
+            </p>
+          </div>
+        )}
       </form>
     </div>
   );

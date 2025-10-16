@@ -11,15 +11,29 @@ const App = () => {
     backgroundColor: '#1a365d',
     padding: '1rem',
     marginBottom: '2rem',
+    display: 'flex',
+    alignItems: 'center',
+  };
+
+  const brandStyle = {
+    color: 'white',
+    fontSize: '1.5rem',
+    fontWeight: 'bold',
+    display: 'flex',
+    alignItems: 'center',
+    gap: '0.5rem',
+    textDecoration: 'none',
+    marginRight: 'auto',
+    marginLeft: '1rem',
   };
 
   const navListStyle = {
     display: 'flex',
-    justifyContent: 'center',
     gap: '2rem',
     listStyle: 'none',
     margin: 0,
     padding: 0,
+    marginRight: '1rem',
   };
 
   const linkStyle = {
@@ -32,6 +46,9 @@ const App = () => {
     <Router>
       <div>
         <nav style={navStyle}>
+          <Link to="/" style={brandStyle}>
+            Safe Sphere <span style={{ color: '#ff4d4d' }}>♥</span>
+          </Link>
           <ul style={navListStyle}>
             <li>
               <Link to="/" style={linkStyle}>Home</Link>
